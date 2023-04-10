@@ -30,7 +30,8 @@ function App() {
   return (
     <View style={styles.app}>
       <View style={styles.header}>
-        <Text style={styles.title}>Movie Library</Text>
+        <Text style={styles.title}>Movie Dictionary</Text>
+        <Text>Its the #1 PR</Text>
       </View>
       <Text style={styles.text}>
         <input value={title} onChange={(e) => setTitle(e.target.value)}></input>
